@@ -1,0 +1,43 @@
+/* Apply a different font and background color */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styling using an ID selector */
+#main-header {
+    font-size: 2rem;
+    color: #0056b3;
+    text-align: center;
+    padding: 20px;
+    background-color: #e9ecef;
+    border-bottom: 3px solid #007BFF;
+}
+
+/* Style an image with a class selector */
+.img-style {
+    width: 80%;
+    max-width: 600px;
+    border: 5px solid #ccc;
+    margin: 20px auto;
+    display: block;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.img-style:hover {
+    transform: scale(1.1); /* Zoom effect on hover */
+}
+
+/* Paragraph styling using a class selector */
+.text-box {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin: 20px;
+    padding: 15px;
+    background-color: #fff;
+    border-left: 5px solid #007BFF;
+}
